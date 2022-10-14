@@ -11,7 +11,7 @@ header img {
 
 header nav{
   display: inline;
-  margin-left: 600px;
+  margin-left: 30%;
 }
 
 .menu {
@@ -22,3 +22,35 @@ header nav{
   color: #444;
 }
 
+
+#pr {
+  height: 500px;
+  margin-left: 20%;
+  border: violet solid 1px;
+}
+
+#inicio {
+  background-color: #fafafa;
+  border: red solid 2px;
+}
+
+#title h1 {
+  font-size: 60px;
+}
+
+#title button {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  color: #444;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: aquamarine;
+}
+
+#title {
+  display: inline-block;
+  margin-left: 20px;
+  text-align: center;
+  border: blue solid 2px;
+}
