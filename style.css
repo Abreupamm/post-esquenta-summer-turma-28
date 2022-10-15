@@ -25,13 +25,13 @@ header nav{
 
 #pr {
   height: 500px;
-  margin-left: 20%;
-  border: violet solid 1px;
+  margin-left: 30%;
+  /* border: violet solid 1px; */
 }
 
 #inicio {
   background-color: #fafafa;
-  border: red solid 2px;
+  /* border: red solid 2px; */
 }
 
 #title h1 {
@@ -52,5 +52,7 @@ header nav{
   display: inline-block;
   margin-left: 20px;
   text-align: center;
-  border: blue solid 2px;
+  /* border: blue solid 2px; */
+  position: absolute;
+  margin-top: 30px;
 }
