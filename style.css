@@ -63,11 +63,11 @@ header nav{
   font-size: 25px;
 }
 
-#artigo h2 {
+#artigo h2, #nav-link h2 {
   font-size: 40px;
 }
 
-#artigo li, #nav-link h2 {
+#artigo li {
   font-size: 30px;
 }
 
@@ -109,4 +109,32 @@ header nav{
 #container-bottom {
   background-color: #f2f3f3;
   margin-top: 50px;
+}
+
+#container-bottom a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 60px;
+  margin-left: 150px;
+  width: 70%;
+  height: 300px;
+  /* border: #448 solid 1px; */
+}
+
+#container-bottom a:hover {
+  color: #448;
+}
+
+#container-bottom img {
+  width: 300px;
+  position: absolute;
+  right: 350px;
+  border-radius: 50%;
+  border: rgba(68, 68, 68, 0.267) solid 10px;
+  margin: 40px;
+}
+
+#container-bottom h2 {
+  font-size: 50px;
 }
