@@ -29,8 +29,10 @@ header nav{
   /* border: violet solid 1px; */
 }
 
-#inicio {
+#container-top {
   background-color: #fafafa;
+  height: 600px;
+  margin-bottom: 50px;
   /* border: red solid 2px; */
 }
 
@@ -79,7 +81,7 @@ header nav{
 
 #nav-link {
   display: inline-block;
-  width: 30%;
+  width: 25%;
   /* border:green solid 1px; */
   position: absolute;
   margin-top: 50px;
@@ -92,14 +94,19 @@ header nav{
 }
 
 #nav-link a:hover {
-color: #448;
+  color: #448;
 }
 
 #nav-link li {
   margin-bottom: 15px;
 }
 
-#container {
+#container-text {
   width: 85%;
   margin: 0 auto;
+}
+
+#container-bottom {
+  background-color: #f2f3f3;
+  margin-top: 50px;
 }
