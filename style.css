@@ -93,7 +93,7 @@ header nav{
   color: #444;
 }
 
-#nav-link a:hover {
+#nav-link a:hover, #container-bottom a:hover, .menu:hover {
   color: #448;
 }
 
@@ -122,10 +122,7 @@ header nav{
   /* border: #448 solid 1px; */
 }
 
-#container-bottom a:hover {
-  color: #448;
-}
-
+ 
 #container-bottom img {
   width: 300px;
   position: absolute;
